@@ -7,7 +7,7 @@ function signUp()
     username = $("#username").val()
     console.log()
     password = $("#password").val()
-    if( isNaN(username.length + password.length))
+    if( isNaN(username.length) || isNaN(password.length))
     {
         alert("Please enter a valid username and password")
     }

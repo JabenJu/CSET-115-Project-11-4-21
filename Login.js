@@ -20,7 +20,7 @@ function login(){
     fpassword = document.getElementById("loginPassword")
     fusername = document.getElementById("loginUsername")
 
-    let budgetPageUrl = "sign-up.html"
+    let budgetPageUrl = "budget.html"
     if(ipassword === lpassword && iusername === lusername){
         location = budgetPageUrl;
     }
