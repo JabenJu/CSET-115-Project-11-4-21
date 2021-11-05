@@ -1,0 +1,10 @@
+#header{
+    display:flexbox;
+    align-content:center;
+}
+
+#sign-up{
+    display:flexbox;
+    flex-direction: column;
+    
+}
