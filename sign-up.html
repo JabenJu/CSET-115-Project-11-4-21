@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="sign-in.js"></script>
+        <script src="login.js"></script>
+    </head>
 <body>
     <title>Sign Up</title>
     <div id="header">
@@ -10,9 +15,9 @@
         <form action="log-in.html">
             <label for="username">Username</label><br>
             <input type="text" id="username" name="Username"><br><br>
-            <label for="email">E-mail</label><br>
-            <input type="text" id="email" name="E-Mail"><br><br>
-            <input type="submit" value="Submit">
+            <label for="password">Password</label><br>
+            <input type="text" id="password" name="password"><br><br>
+            <button type="button" onclick="signUp()">Submit</button>
         </form>
     </div>
 </body>

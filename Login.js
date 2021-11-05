@@ -1,16 +1,24 @@
-let ipassword = document.getElementById("loginPassword").value
-let iusername = document.getElementById("loginUsername").value
-let lpassword = localStorage.getItem("password")
-let lusername = localStorage.getItem("username")
+let ipassword = null
+let iusername = null
+let lpassword = null
+let lusername = null
 
-let wrongpassword = document.getElementById("wrongPassword")
-let wrongusername = document.getElementById("wrongUsername")
-let fpassword = document.getElementById("loginPassword")
-let fusername = document.getElementById("loginUsername")
+let wrongpassword = null
+let wrongusername = null
+let fpassword = null
+let fusername = null
 
 let budgetPageUrl = 
 
 function login(){
+    ipassword = document.getElementById("loginPassword").value
+    iusername = document.getElementById("loginUsername").value
+    lusername = localStorage.getItem("username")
+    lpassword = localStorage.getItem("password")
+    wrongpassword = document.getElementById("wrongPassword")
+    wrongusername = document.getElementById("wrongUsername")
+    fpassword = document.getElementById("loginPassword")
+    fusername = document.getElementById("loginUsername")
 
     if(ipassword === lpassword && iusername === lusername){
         window.location.pathname = budgetPageUrl;
