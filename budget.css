@@ -1,0 +1,86 @@
+/* ----------
+    Global
+---------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-input{
+    border: solid 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    width: 95%;
+    height: 25px;
+}
+
+button{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5px;
+    width: max-content;
+}
+
+/* ----------
+    Input Field
+---------- */
+
+#input-data{
+    align-self: flex-start;
+    width: 40%;
+}
+
+/* Budget  */
+#input-budget{
+    border: green solid 2px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
+
+#budgetUi, #btn-budget-caulcate{
+    border-color: green;
+}
+
+
+/* Expenses */
+
+#input-expense{
+    border: red solid 2px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+/* ----------
+    Info Display
+---------- */
+
+#info-display{
+    align-self: flex-end;
+    width: 60%;
+    background-color: pink;
+}
+
+#showcases 
+
+#expense-list{
+    width: 60%;
+}
