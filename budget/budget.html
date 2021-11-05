@@ -23,33 +23,33 @@
                     <p>Please Enter Expense Amount</p>
                     <input id="expenseAmountUi" class="user-input">
                 </div>
-                <button>Add Expense</button>
+                <button id="btnAddExpense">Add Expense</button>
             </div>
         </section>
 
         <section id="info-display" class="flex-col">
             <div id="showcases" class="flex-row">
                 <div id="budget-showcase" class="showcase-box">
-                    <h2>Budget</h2>
-                    <ion-icon name="cash-outline"></ion-icon>
-                    <p id="budgetJS">0</p>
+                    <div><h2>BUDGET</h2></div>
+                    <div class="icon"><ion-icon name="cash-outline"></ion-icon></div>
+                    <p style="color: green;" id="budgetJS">$0</p>
                 </div>
 
-                <div id="expense-showcase">
-                    <h2>Expenses</h2>
-                    <ion-icon name="card-outline"></ion-icon>
-                    <p id="expenseJS">$0</p>
+                <div id="expense-showcase" class="showcase-box">
+                    <h2>EXPENSES</h2>
+                    <div class="icon"><ion-icon name="card-outline"></ion-icon></div>
+                    <p style="color: red;"  id="expenseJS">$0</p>
                 </div>
 
-                <div id="balance-showcase">
-                    <h2>Balance</h2>
-                    <ion-icon name="logo-usd"></ion-icon>
-                    <p id="balanceJS">0</p>
+                <div id="balance-showcase" class="showcase-box">
+                    <h2>BALANCE</h2>
+                    <div class="icon"><ion-icon name="logo-usd"></ion-icon></div>
+                    <p id="balanceJS">$0</p>
                 </div>
             </div>
 
             <div id="expense-list">
-                <div>
+                <div class="expenseItem">
                     <p>Expense Name</p>
                     <p>Expense Amount</p>
                 </div>
