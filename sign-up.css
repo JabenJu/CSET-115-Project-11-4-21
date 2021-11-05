@@ -1,10 +1,25 @@
-#header{
-    display:flexbox;
-    align-content:center;
+.header{
+    margin: 0;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#sign-up{
-    display:flexbox;
-    flex-direction: column;
-    
+.sign-up{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: rgb(140, 211, 245);
+    background:rgb(215, 242, 255)
+}
+
+#username, #email{
+    margin-top:10px;
 }
