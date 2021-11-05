@@ -1,12 +1,13 @@
 let username = null
 let password = null
-let loginPath = 
+let loginPath = "login.html"
 
 function signUp()
 {
     username = $("#username").val()
+    console.log()
     password = $("#password").val()
-    if( isNaN(length(username) + length(password)))
+    if( isNaN(username.length + password.length))
     {
         alert("Please enter a valid username and password")
     }

@@ -8,7 +8,7 @@ let wrongusername = null
 let fpassword = null
 let fusername = null
 
-let budgetPageUrl = 
+
 
 function login(){
     ipassword = document.getElementById("loginPassword").value
@@ -20,8 +20,9 @@ function login(){
     fpassword = document.getElementById("loginPassword")
     fusername = document.getElementById("loginUsername")
 
+    let budgetPageUrl = "sign-up.html"
     if(ipassword === lpassword && iusername === lusername){
-        window.location.pathname = budgetPageUrl;
+        location = budgetPageUrl;
     }
 
     if(ipassword != lpassword){

@@ -1,7 +1,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="login.css">
-    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="sign-in.js"></script>
+    <script src="Login.js"></script>
     <title>Login Page</title>
 </head>
 <body>
@@ -10,7 +12,7 @@
         <form>
             <input type="text" placeholder="Username" class="input" id="loginUsername" name="username" value=""><br>
             <input type="text" placeholder="Password" class="input" id="loginPassword" name="password" value=""><br><br>
-            <input type="submit" value="Login">
+            <button type="button" onclick="login()">Log in</button>
         </form>
     </div>
 </body>
