@@ -20,9 +20,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     border-style: solid;
     border-width: 2px;
     border-radius: 15px;
+    
     padding: 10px;
     border-color: rgb(140, 211, 245);
     background:rgb(215, 242, 255)
